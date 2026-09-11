@@ -1,0 +1,14 @@
+streamlit
+requests
+numpy
+pdfplumber
+pypdfium2
+pypdf
+pytesseract
+Pillow
+python-docx
+openpyxl
+python-pptx
+reportlab
+matplotlib
+pandas

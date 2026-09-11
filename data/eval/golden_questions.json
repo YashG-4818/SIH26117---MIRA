@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-09-08T05:12:14+00:00",
+  "note": "Retrieval and answer evaluation set. 'must_cite' lists the document ids a correct answer has to be grounded in; 'must_contain' lists strings a correct answer should mention; 'hops' is how many separate documents must be combined.",
+  "questions": [
+    {
+      "q": "What was the overall vibration reading on P-2104B in August 2026, and was it above the alert limit?",
+      "must_cite": [
+        "VIB-CDU2-2026"
+      ],
+      "must_contain": [
+        "9.6",
+        "7.1"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What was the root cause of the mechanical seal failure on P-2104B?",
+      "must_cite": [
+        "INC-2026-0042"
+      ],
+      "must_contain": [
+        "alignment",
+        "0.19"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What is the approved procedure to change over from P-2104B to P-2104A while CDU-2 is running?",
+      "must_cite": [
+        "SOP-CDU2-014"
+      ],
+      "must_contain": [
+        "SOP-CDU2-014",
+        "warm"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "Do we have the seal kit in stock that MOC-2026-0087 needs?",
+      "must_cite": [
+        "SPR-ROT-001",
+        "MOC-2026-0087"
+      ],
+      "must_contain": [
+        "SK-682-2104-A3",
+        "45"
+      ],
+      "hops": 2
+    },
+    {
+      "q": "Which CDU-2 personnel have a lapsed pump changeover certification?",
+      "must_cite": [
+        "TRN-CDU2-MATRIX"
+      ],
+      "must_contain": [
+        "Kulkarni",
+        "Prabhu"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "Can we do hot work near the CDU-2 column bottoms circuit in September 2026?",
+      "must_cite": [
+        "SC-2026-11"
+      ],
+      "must_contain": [
+        "suspended",
+        "deviation"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "Which HAZOP Node 7 actions are overdue?",
+      "must_cite": [
+        "HAZOP-CDU2-2024"
+      ],
+      "must_contain": [
+        "H7-03",
+        "PSV-2141"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What was CDU-2 specific energy consumption in August 2026 versus target?",
+      "must_cite": [
+        "OPS-MR-2026-08"
+      ],
+      "must_contain": [
+        "62.4",
+        "60.0"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What did the night shift handover log on 27 August 2026 record about P-2104B?",
+      "must_cite": [
+        "SHL-2026-08-27"
+      ],
+      "must_contain": [
+        "9.4",
+        "Plan 52"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What seal arrangement does MOC-2026-0087 propose and what is its approval status?",
+      "must_cite": [
+        "MOC-2026-0087"
+      ],
+      "must_contain": [
+        "Arrangement 3",
+        "Pending"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "What does MRPL engineering practice require for vibration readings above the alert limit?",
+      "must_cite": [
+        "ENG-STD-SUMM-119"
+      ],
+      "must_contain": [
+        "24 hours",
+        "work order"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "How much did the P-2104B breakdown work order cost and how much downtime did it cause?",
+      "must_cite": [
+        "WO-HIST-CDU2"
+      ],
+      "must_contain": [
+        "WO-26-15118",
+        "14.5"
+      ],
+      "hops": 1
+    },
+    {
+      "q": "P-2104B vibration has been rising all year. Was this ever flagged before the failure, and by whom?",
+      "must_cite": [
+        "SHL-2026-08-27",
+        "WO-HIST-CDU2",
+        "INC-2026-0042"
+      ],
+      "must_contain": [
+        "27 August",
+        "monitor"
+      ],
+      "hops": 3
+    },
+    {
+      "q": "The seal upgrade is approved in principle. What is actually blocking it from being executed?",
+      "must_cite": [
+        "SPR-ROT-001",
+        "SC-2026-11",
+        "MOC-2026-0087"
+      ],
+      "must_contain": [
+        "lead time",
+        "hot work"
+      ],
+      "hops": 3
+    },
+    {
+      "q": "Give me every document that mentions P-2104B.",
+      "must_cite": [
+        "INC-2026-0042",
+        "VIB-CDU2-2026",
+        "SOP-CDU2-014",
+        "WO-HIST-CDU2",
+        "SHL-2026-08-27",
+        "MOC-2026-0087"
+      ],
+      "must_contain": [
+        "P-2104B"
+      ],
+      "hops": 1
+    }
+  ]
+}

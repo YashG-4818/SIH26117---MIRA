@@ -1,0 +1,29 @@
+{
+  "_comment": "Save this as data/eval/golden_questions.json. Each entry is one question run through agent.ask(); 'expect_contains' is a lowercase substring that should appear in the answer, and 'expect_citation' is a citation (or citation prefix) that should show up among the sources used. Add real questions here once the corpus documents (doc IDs, tags, figures) are finalised — these are placeholders showing the shape.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the vibration alert limit for P-2104B?",
+      "expect_contains": "7.1",
+      "expect_citation": "SOP-CDU2-014"
+    },
+    {
+      "id": "q2",
+      "question": "Summarise the most recent safety incident report.",
+      "expect_contains": "",
+      "expect_citation": "INC-2026-"
+    },
+    {
+      "id": "q3",
+      "question": "Which SOP covers CDU-2 startup?",
+      "expect_contains": "sop-cdu2",
+      "expect_citation": "SOP-CDU2-014"
+    },
+    {
+      "id": "q4",
+      "question": "Is there an equipment tag that isn't in the corpus? Ask about Z-9999 and confirm the assistant says it can't find it rather than guessing.",
+      "expect_contains": "could not find",
+      "expect_citation": ""
+    }
+  ]
+}

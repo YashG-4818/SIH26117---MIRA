@@ -1,0 +1,256 @@
+{
+  "generated_at": "2026-09-08T05:12:14+00:00",
+  "generator": "scripts/make_corpus.py",
+  "plant": {
+    "company": "Mangalore Refinery and Petrochemicals Limited",
+    "short": "MRPL",
+    "site": "Katipalla, Mangaluru, Karnataka",
+    "unit_code": "CDU-2",
+    "unit_name": "Crude Distillation Unit - 2",
+    "capacity": "3.0 MMTPA",
+    "doc_class": "CONFIDENTIAL - INTERNAL USE ONLY",
+    "synthetic_notice": "SYNTHETIC DOCUMENT - generated for SIH26117 prototype evaluation. Not an actual MRPL record."
+  },
+  "notice": "Every document in this corpus is SYNTHETIC. It is modelled on real refinery document formats and is internally cross-consistent, but contains no actual MRPL data. State this openly when presenting.",
+  "document_count": 13,
+  "equipment_register": [
+    {
+      "tag": "P-2104A",
+      "desc": "CDU-2 Column Bottoms (RCO) Pump - A",
+      "type": "Centrifugal, API 610 BB2",
+      "driver_kw": 250,
+      "service_temp_c": 345,
+      "status": "Standby"
+    },
+    {
+      "tag": "P-2104B",
+      "desc": "CDU-2 Column Bottoms (RCO) Pump - B",
+      "type": "Centrifugal, API 610 BB2",
+      "driver_kw": 250,
+      "service_temp_c": 345,
+      "status": "Running"
+    },
+    {
+      "tag": "P-2101A",
+      "desc": "CDU-2 Crude Charge Pump - A",
+      "type": "Centrifugal, API 610 BB2",
+      "driver_kw": 400,
+      "service_temp_c": 120,
+      "status": "Running"
+    },
+    {
+      "tag": "P-2101B",
+      "desc": "CDU-2 Crude Charge Pump - B",
+      "type": "Centrifugal, API 610 BB2",
+      "driver_kw": 400,
+      "service_temp_c": 120,
+      "status": "Standby"
+    },
+    {
+      "tag": "P-2107A",
+      "desc": "CDU-2 Kerosene Product Pump - A",
+      "type": "Centrifugal, API 610 OH2",
+      "driver_kw": 75,
+      "service_temp_c": 190,
+      "status": "Running"
+    },
+    {
+      "tag": "C-2101",
+      "desc": "CDU-2 Atmospheric Distillation Column",
+      "type": "Trayed column, 42 trays",
+      "driver_kw": 0,
+      "service_temp_c": 355,
+      "status": "In service"
+    },
+    {
+      "tag": "F-2101",
+      "desc": "CDU-2 Crude Charge Heater",
+      "type": "Fired heater, 4 pass",
+      "driver_kw": 0,
+      "service_temp_c": 370,
+      "status": "In service"
+    },
+    {
+      "tag": "E-2107",
+      "desc": "CDU-2 Crude / RCO Heat Exchanger",
+      "type": "Shell & tube, AES",
+      "driver_kw": 0,
+      "service_temp_c": 340,
+      "status": "In service"
+    },
+    {
+      "tag": "V-2103",
+      "desc": "CDU-2 Naphtha Reflux Drum",
+      "type": "Horizontal vessel",
+      "driver_kw": 0,
+      "service_temp_c": 95,
+      "status": "In service"
+    },
+    {
+      "tag": "PSV-2141",
+      "desc": "Relief valve, P-2104 discharge header",
+      "type": "Conventional spring, 1.5J2",
+      "driver_kw": 0,
+      "service_temp_c": 345,
+      "status": "In service"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "SOP-CDU2-014",
+      "title": "Pump Changeover - Hot Standby, Column Bottoms Service",
+      "filename": "SOP-CDU2-014_Rev4_Pump_Changeover.pdf",
+      "doc_type": "Standard Operating Procedure",
+      "extraction_path": "native_text",
+      "demo_purpose": "The authoritative procedure. Tests whether the agent quotes a real numbered step instead of inventing one.",
+      "size_kb": 12.2,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "INC-2026-0042",
+      "title": "Mechanical Seal Failure and Hydrocarbon Release, P-2104B",
+      "filename": "INC-2026-0042_Seal_Failure_P-2104B.pdf",
+      "doc_type": "Incident Investigation Report",
+      "extraction_path": "native_text",
+      "demo_purpose": "The narrative centre of the corpus. Root cause, 5-why and CAPA table.",
+      "size_kb": 11.6,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "HAZOP-CDU2-2024",
+      "title": "Column Bottoms Circuit - Action Tracking Register",
+      "filename": "HAZOP-CDU2-2024_Node7_Action_Register.pdf",
+      "doc_type": "HAZOP Action Register",
+      "extraction_path": "pdf_table",
+      "demo_purpose": "Deliberately table-heavy so pdfplumber table extraction is exercised. Contains the overdue action the agent should surface unprompted.",
+      "size_kb": 5.4,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "SC-2026-11",
+      "title": "Restriction on Hot Work - CDU-2 Column Bottoms Circuit",
+      "filename": "SC-2026-11_Hot_Work_Restriction_CDU2.pdf",
+      "doc_type": "Safety Circular",
+      "extraction_path": "native_text",
+      "demo_purpose": "Time-bounded restriction. Tests date-aware reasoning: is hot work allowed on a given date?",
+      "size_kb": 4.4,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "OPS-MR-2026-08",
+      "title": "CDU-2 Monthly Operations Performance Report",
+      "filename": "OPS-MR-2026-08_CDU2_Monthly_Report_Aug2026.pdf",
+      "doc_type": "Monthly Operations Report",
+      "extraction_path": "native_text",
+      "demo_purpose": "Numeric KPI tables plus narrative. Feeds the chart and report generation demo.",
+      "size_kb": 7.0,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "ENG-STD-SUMM-119",
+      "title": "Internal Engineering Summary - Hot Service Pump Requirements",
+      "filename": "ENG-STD-SUMM-119_Hot_Service_Pump_Practice.pdf",
+      "doc_type": "Engineering Practice Summary",
+      "extraction_path": "native_text",
+      "demo_purpose": "The 'rule book' the agent measures the plant against, giving it something to reason with rather than only facts to recite.",
+      "size_kb": 6.6,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "MOC-2026-0087",
+      "title": "Upgrade of Mechanical Seal Arrangement, P-2104A/B",
+      "filename": "MOC-2026-0087_Seal_Upgrade_P-2104.docx",
+      "doc_type": "Management of Change",
+      "extraction_path": "docx",
+      "demo_purpose": "DOCX path. Holds the approval status and the procurement blocker.",
+      "size_kb": 39.7,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "VIB-CDU2-2026",
+      "title": "CDU-2 Rotating Equipment Vibration and Bearing Temperature Log",
+      "filename": "VIB-CDU2-2026_Vibration_Log.xlsx",
+      "doc_type": "Condition Monitoring Log",
+      "extraction_path": "xlsx",
+      "demo_purpose": "The numeric substrate for the sandbox calculation demo (trend slope, limit breaches). Includes an embedded chart.",
+      "size_kb": 11.5,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "WO-HIST-CDU2",
+      "title": "CDU-2 Work Order History 2025-2026",
+      "filename": "WO-HIST-CDU2_Work_Order_History.xlsx",
+      "doc_type": "Work Order History",
+      "extraction_path": "xlsx",
+      "demo_purpose": "Maintenance history with cost and downtime. Supports 'has this happened before and what did it cost' questions.",
+      "size_kb": 6.8,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "SPR-ROT-001",
+      "title": "Rotating Equipment Critical Spares Inventory",
+      "filename": "SPR-ROT-001_Spares_Inventory.xlsx",
+      "doc_type": "Spares Inventory",
+      "extraction_path": "xlsx",
+      "demo_purpose": "Where the punchline lives: the approved fix is blocked on a 45-day lead time. This is what makes the multi-hop answer feel intelligent.",
+      "size_kb": 8.4,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "TRN-CDU2-MATRIX",
+      "title": "CDU-2 Operator Competency and Certification Matrix",
+      "filename": "TRN-CDU2-MATRIX_Competency_Matrix.xlsx",
+      "doc_type": "Competency Matrix",
+      "extraction_path": "xlsx",
+      "demo_purpose": "Date arithmetic against an as-of date. Tests whether the agent computes expiry rather than copying a cell.",
+      "size_kb": 6.4,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "SHL-2026-08-27",
+      "title": "CDU-2 Shift Handover Log - Night Shift",
+      "filename": "SHL-2026-08-27_Shift_Handover_SCANNED.pdf",
+      "doc_type": "Shift Handover Log (scanned)",
+      "extraction_path": "ocr_image",
+      "demo_purpose": "NO text layer. Skewed, speckled, hand-filled, JPEG-degraded. This is the OCR proof document and the one to show a sceptical judge.",
+      "size_kb": 302.8,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    },
+    {
+      "doc_id": "PID-CDU2-003",
+      "title": "CDU-2 Column Bottoms Circuit - Simplified Flow Schematic",
+      "filename": "PID-CDU2-003_Column_Bottoms_Schematic.png",
+      "doc_type": "P&ID Flow Schematic",
+      "extraction_path": "vision",
+      "demo_purpose": "Image-only engineering drawing for the vision-model branch.",
+      "size_kb": 128.4,
+      "classification": "CONFIDENTIAL - INTERNAL USE ONLY",
+      "unit": "CDU-2",
+      "synthetic": true
+    }
+  ]
+}
